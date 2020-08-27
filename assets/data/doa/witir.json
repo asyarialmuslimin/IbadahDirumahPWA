@@ -1,0 +1,11 @@
+{
+    "data": [{
+            "title": "Niat Sholat Witir",
+            "arab": "assets/images/niatwitir.png"
+        },
+        {
+            "title": "Do'a Setelah Sholat Witir",
+            "arab": "assets/images/doawitir.png"
+        }
+    ]
+}

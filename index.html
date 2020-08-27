@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#00897B" />
+    <link rel="shortcut icon" href="./assets/images/icons/icon-72x72.png">
+
+    <title>Ibadah Dirumah</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header>
+        <nav class="teal">
+            <div class="nav-wrapper container">
+                <div class="linknav">
+                    <a href="#" class="brand-logo left">Ibadah Dirumah</a></div>
+                <a data-target="slide-out" class="sidenav-trigger right">
+                    <img src="assets/images/menu.svg" alt="Menu" width="32px" height="32px"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down linknav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#surah">Surah</a></li>
+                    <li><a href="#doa">Do'a</a></li>
+                    <li><a href="#cerita">Cerita</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container content">
+
+        </div>
+    </main>
+
+    <footer class="teal">
+        Ibadah Dirumah by Ahmad Saifur Ridlo @ 2020
+    </footer>
+
+    <ul id="slide-out" class="sidenav">
+        <li class="logo-wrapper">
+            <img class="logo" src="assets/images/logo.png" alt="Logo">
+            <h4>Ibadah Dirumah</h4>
+            <p>Kumpulan Surat Al Quran dan Do'a</p>
+            <p>Untuk Membantu Ibadah Dirumah</p>
+        </li>
+        <li class="divider"></li>
+        <li class="linknav"><a href="#">Home</a></li>
+        <li class="linknav"><a href="#surah">Surah</a></li>
+        <li class="linknav"><a href="#doa">Doa</a></li>
+        <li class="linknav"><a href="#cerita">Cerita</a></li>
+        <li class="linknav"><a href="#about">About</a></li>
+    </ul>
+</body>
+<script>
+    // REGISTER SERVICE WORKER
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker
+                .register("/service-worker.js")
+                .then(function () {
+                    console.log("Pendaftaran ServiceWorker berhasil");
+                })
+                .catch(function () {
+                    console.log("Pendaftaran ServiceWorker gagal");
+                });
+        });
+    } else {
+        console.log("ServiceWorker belum didukung browser ini.");
+    }
+</script>
+<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</html>

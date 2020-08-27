@@ -1,0 +1,33 @@
+{
+    "data": [{
+            "title": "Niat Puasa",
+            "subtitle": "Bacaan Niat Puasa Wajib dan Sunnah",
+            "link": "niatpuasa"
+        },
+        {
+            "title": "Do'a Berbuka Puasa",
+            "subtitle": "Bacaan Do'a untuk Berbuka Puasa",
+            "link": "bukapuasa"
+        },
+        {
+            "title": "Do'a Sholat Tahajud",
+            "subtitle": "Bacaan Niat dan Do'a Setelah Sholat Tahajud",
+            "link": "tahajud"
+        },
+        {
+            "title": "Do'a Sholat Dhuha",
+            "subtitle": "Bacaan Niat dan Do'a Setelah Sholat Dhuha",
+            "link": "dhuha"
+        },
+        {
+            "title": "Do'a Sholat Tarawih",
+            "subtitle": "Bacaan Niat dan Do'a Setelah Sholat Tarawih",
+            "link": "tarawih"
+        },
+        {
+            "title": "Do'a Sholat Witir",
+            "subtitle": "Bacaan Niat dan Do'a Setelah Sholat Witir",
+            "link": "witir"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "data": [{
+            "title": "Niat Sholat Tarawih",
+            "arab": "assets/images/niattarawih.png"
+        },
+        {
+            "title": "Do'a Setelah Sholat Tarawih",
+            "arab": "assets/images/doatarawih.png"
+        }
+    ]
+}

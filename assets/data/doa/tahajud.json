@@ -1,0 +1,9 @@
+{
+    "data": [{
+        "title": "Niat Sholat Tahajud",
+        "arab": "assets/images/niattahajud.png"
+    }, {
+        "title": "Do'a Setelah Sholat Tahajud",
+        "arab": "assets/images/doatahajud.png"
+    }]
+}

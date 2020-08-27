@@ -1,0 +1,261 @@
+body {
+    height: 100vh;
+}
+
+nav.teal {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+}
+
+main {
+    margin-top: 70px;
+    min-height: 91vh;
+}
+
+.brand-logo {
+    padding-left: 20px;
+}
+
+.sidenav-trigger {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo-wrapper h4 {
+    font-size: 32px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.logo-wrapper p {
+    margin: 0;
+    margin-top: -15px;
+    padding: 0;
+    font-size: 12px;
+}
+
+.logo {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.home-card {
+    min-width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px #00000075;
+}
+
+.home-card-title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.home-card-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.home-card a {
+    margin-top: 20px;
+    text-shadow: none;
+}
+
+.surah-card {
+    background: url('../images/quran.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cerita-card {
+    background: url('../images/hadist.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.doa-card {
+    background: url('../images/doa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collapsible-body a {
+    padding-left: 24px;
+    text-decoration: none;
+}
+
+.card-quran {
+    height: 185px;
+}
+
+.card-action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.loading-container {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.quran-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title-arab {
+    padding: 10px;
+    font-family: "IsepMisbah";
+    font-size: 40px;
+}
+
+.title-indo {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.ayat-wrapper {
+    display: flex;
+    font-family: "IsepMisbah";
+}
+
+.numAyat {
+    font-size: 25px;
+}
+
+.ayat {
+    font-size: 25px;
+    flex-grow: 1;
+    text-align: right;
+    line-height: 200%;
+}
+
+.imgdoa {
+    width: 100%;
+}
+
+.paragraf-cerita {
+    text-align: justify;
+}
+
+.photo-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.photo-container img {
+    width: 200px;
+    margin: 10px;
+}
+
+.author-photo {
+    border-radius: 50%;
+}
+
+.profil {
+    text-align: center;
+    margin: 0;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.position {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.card-contact {
+    text-align: center;
+    font-weight: 700;
+}
+
+.whatsapp {
+    background: #128C7E;
+}
+
+.instagram {
+    background: #D02873;
+}
+
+.facebook {
+    background: #395795;
+}
+
+.github {
+    background: #2A3035;
+}
+
+footer {
+    padding: 15px;
+    color: white;
+}
+
+@media only screen and (max-width : 600px) {
+
+    .card-quran,
+    .card-doa,
+    .card-cerita {
+        height: auto;
+        width: 80vw;
+    }
+
+    .photo-container img {
+        width: 125px;
+    }
+
+    .card-contact {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+
+    nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .brand-logo {
+        flex-wrap: 1;
+    }
+
+    .nav-wrapper {
+        position: relative;
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: "IsepMisbah";
+    src: url("../font/IsepMisbah.ttf");
+}

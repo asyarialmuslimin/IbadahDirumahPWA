@@ -1,0 +1,21 @@
+{
+    "data": [{
+        "title": "Niat Puasa Romadhon",
+        "arab": "assets/images/romadhon.png"
+    }, {
+        "title": "Niat Puasa Syawal",
+        "arab": "assets/images/syawal.png"
+    }, {
+        "title": "Niat Puasa Rajab",
+        "arab": "assets/images/rajab.png"
+    }, {
+        "title": "Niat Puasa Sya'ban",
+        "arab": "assets/images/syaban.png"
+    }, {
+        "title": "Niat Puasa Arafah",
+        "arab": "assets/images/arafah.png"
+    }, {
+        "title": "Niat Puasa Tarwiyah",
+        "arab": "assets/images/tarwiyah.jpg"
+    }]
+}

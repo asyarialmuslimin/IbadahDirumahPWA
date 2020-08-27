@@ -1,0 +1,28 @@
+{
+    "data": [{
+            "title": "Al-Fatihah",
+            "subtitle": "Bermanfaat untuk Banyak Hajat",
+            "link": "alfatihah"
+        },
+        {
+            "title": "Yaasin",
+            "subtitle": "Biasanya dibaca Tiap Malam Jumat",
+            "link": "yaasin"
+        },
+        {
+            "title": "As-Sajdah",
+            "subtitle": "Agar diberi Keimanan yang Kuat",
+            "link": "assajdah"
+        },
+        {
+            "title": "Al-Fath",
+            "subtitle": "Mendapat Perlindungan dari Allah SWT",
+            "link": "alfath"
+        },
+        {
+            "title": "Al-Mulk",
+            "subtitle": "Syafaat dan Keselamatan dari Azab Kubur",
+            "link": "almulk"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "data": [{
+        "title": "Niat Sholat Dhuha",
+        "arab": "assets/images/niatdhuha.png"
+    }, {
+        "title": "Doa Setelah Sholat Dhuha",
+        "arab": "assets/images/doadhuha.png"
+    }]
+}
